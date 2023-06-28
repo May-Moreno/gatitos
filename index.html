@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <title>Pagina de Gatitos Anime</title> 
+       <meta charset="UTF-8">    <!--Meta = Proporciona metadatos (datos a la web)
+    charset = caracteres -->
+        <link href="estilos.css" rel="stylesheet"> <!--Conexion del html con el css-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1><strong>Paguina de Gatitos Anime</strong></h1>
+
+        <h3>Imagenes de Gatitos del anime</h3>
+        <!--Imagen desde internet-->
+        <img src="https://noticias.animeonegai.com/wp-content/uploads/2022/01/image-77.png"> <!--class="img1"-->
+        <!--Imagen desde computadora-->
+        <br>
+        <img src="imagenes\neko.jpg"> <!--class="img2"-->
+
+        <!--Crear enlaces externos (a= anchor) (target = apertura de hipervinculo en una paguina nueva) (strong = letra negrita)-->
+        <p>Si quieres ver mas imagenes de gatitos del anime, <a href="https://ar.pinterest.com/penarandacris2017/gato-anime/" target="_blank">da click en este enlace</a>.</p>
+        <h3>Listas de gatitos</h3>
+
+        <!--Lista ordenada-->
+        <p>Tres cosas que los gatitos <strong>aman</strong></p>
+
+        <ol> <!--Ordered list = lista ordenada-->
+            <li>Hierba gatera</li> <!--List item = elemento de la lista -->
+            <li>Jugar con el estambre</li>
+            <li>Tomar el sol</li>
+        </ol>
+
+        <!--Lista desordenada (i = italic o cursiva)-->
+
+        <p>Tres cosas que los gatitos <i>odian</i></p>
+        <ul> <!--unordered list = lista desordenada  (li*Numero que quiero poner)-->
+            <li>Bañarse</li>
+            <li>Caricias</li>
+            <li>Tener hambre</li>
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <!--Form con botones de radio-->
+        <p>Tu gatito es cachorro o es adulto</p>
+        <label>
+            <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+        </label>
+        <br>
+        <label>
+            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+        </label>
+
+        <!--Form con casillas de verificacion-->
+        <p>Que tipo de personalidad tiene tu gato?</p>
+        <label>
+            <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojon
+        </label>
+        <br>
+        <label>
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label>
+        <br>
+        <label>
+            <input id="jugueton" type="checkbox" value="jugueton" name="personalidad">Jugueton
+        </label>
+        <br>
+        <label>
+            <input id="travieso" type="checkbox" value="travieso" name="personalidad">Travieso
+        </label>
+        </form>
+    </body>
+    <footer>
+        <p><small> Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>.</small></p>
+    </footer>
+<!--Esto es un comentario-->
+
+</html>

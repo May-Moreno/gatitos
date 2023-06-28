@@ -1,0 +1,42 @@
+body{
+    background-color:#f7f5f9; /*color al fondo de pantalla*/
+    color:#132d32; /*color de la letra*/  /*https://mybrandnewlogo.com/es/generador-de-paleta-de-colores*/
+    font-family: 'Coming Soon', cursive; /*Verdana, Geneva, Tahoma, sans-serif ;*/ /*Tipo de letra y es una lista de estilos de letra para que se use la que es compatible con el navegador*/ 
+    /*https://fonts.google.com/*/
+    }
+
+    h3{
+        color:#b10063;
+        font-size: 25px;
+    }
+
+    h1{
+        color: #5e5fab;
+    }
+
+    p{
+        color: #0971b5;
+    }
+
+    img {
+        width: 600px; /*alto*/
+        height: 300px; /*largo*/
+        border-style: solid double; /*marco*/
+        border-color: #900800; /*color del marco*/
+        /*margin = espacio entre los elementos, padding = centrar imagen*/
+        margin-left: 50px; /*margen de lado derecho*/
+        margin-bottom: 15px; /*margen de arriba de la imagen*/
+        padding: 20px; /*centrar o ajustar la imagen hacia adentro*/
+    }
+
+    /*.img1 / .img2{
+        width:500px;
+        heigth: 300px;
+    }*/
+
+    a{
+        color:#ff413f;
+    }
+    small{
+        color:#002781;
+    }
